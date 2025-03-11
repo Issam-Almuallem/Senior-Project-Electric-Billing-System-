@@ -73,13 +73,13 @@ if ($result && $result->num_rows > 0) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = '12133485@students.liu.edu.lb'; // Your Gmail address
+            $mail->Username = '12133482@students.liu.edu.lb'; // Your Gmail address
             $mail->Password = 'yuop vydl afuq suti'; // Gmail App Password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
             // Email Content
-            $mail->setFrom('12133485@students.liu.edu.lb', 'Admin');
+            $mail->setFrom('12133482@students.liu.edu.lb', 'Admin');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = "Subscription Expiration Reminder";
