@@ -25,13 +25,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = '12133482@students.liu.edu.lb'; // Your Gmail address
+        $mail->Username = '12133485@students.liu.edu.lb'; // Your Gmail address
         $mail->Password = 'yuop vydl afuq suti';    // Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         // Sender and Recipient
-        $mail->setFrom('12133482@students.liu.edu.lb', 'Admin'); // Your email and name
+        $mail->setFrom('12133485@students.liu.edu.lb', 'Admin'); // Your email and name
         $mail->addAddress($to); // Recipient email
 
         // Email Content
