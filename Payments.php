@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['payment'])) {
                     $mail->Port = 587;
 
                     // Email details
-                    $mail->setFrom('12133482@students.liu.edu.lb', 'EBMS Platform'); // Replace with your email
+                    $mail->setFrom('12133485@students.liu.edu.lb', 'EBMS Platform'); // Replace with your email
                     $mail->addAddress($userEmail);
                     $mail->isHTML(true);
                     $mail->Subject = "Payment Confirmation";
