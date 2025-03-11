@@ -21,8 +21,7 @@ A virtual Electric Billing System designed for managing electricity bills and si
 1. Clone the repository:
    ```bash
    git clone https://github.com/Issam-Almuallem/Senior-Project-Electric-Billing-System-.git
-cd Senior-Project-Electric-Billing-System-
-composer install
+
 ## Database Schema
 
 The Electric Billing Management System (EBMS) uses a MySQL database with the following tables:
