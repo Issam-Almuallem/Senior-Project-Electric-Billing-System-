@@ -78,13 +78,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['payment'])) {
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = '12133485@students.liu.edu.lb'; // Replace with your email
+                    $mail->Username = '12133484@students.liu.edu.lb'; // Replace with your email
                     $mail->Password = 'yuop vydl afuq suti'; // Replace with your app password
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = 587;
 
                     // Email details
-                    $mail->setFrom('12133485@students.liu.edu.lb', 'EBMS Platform'); // Replace with your email
+                    $mail->setFrom('12133484@students.liu.edu.lb', 'EBMS Platform'); // Replace with your email
                     $mail->addAddress($userEmail);
                     $mail->isHTML(true);
                     $mail->Subject = "Payment Confirmation";
