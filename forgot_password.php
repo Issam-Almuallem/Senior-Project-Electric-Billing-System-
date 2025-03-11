@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['email'])) {
             $mail->Port = 587;
 
             // Email Content
-            $mail->setFrom('12133482@students.liu.edu.lb', 'Admin');
+            $mail->setFrom('12133485@students.liu.edu.lb', 'Admin');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = "Password Reset Request Approval";
