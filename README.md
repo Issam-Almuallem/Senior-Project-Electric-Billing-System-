@@ -41,7 +41,6 @@ The **Electric Billing Management System (EBMS)** is a locally-hosted web applic
 
 ## 🛠️ Installation
 
-```bash
 git clone https://github.com/Issam-Almuallem/Senior-Project-Electric-Billing-System-.git
 
 Database Schema
